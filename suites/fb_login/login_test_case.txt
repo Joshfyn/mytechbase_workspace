@@ -1,0 +1,50 @@
+Scenarios
+
+Can the user Login using email address?
+Can the user login using phone number
+Can the user uset the forgotten password
+
+Preconditions
+User should have register on the application
+user should have browser open (chrome or mozilla)
+
+Test Case
+Valid Test Case 
+ -Test case 1.
+     Verify that user can login using valid email address
+  Steps:
+  open facebook login page on your browser
+  provide valid email address
+  provide a valid password
+  click on the login button
+
+Expected result: The user logs in succesfully 
+
+  Test case 2.
+     Verify that user can login using valid phone number [using ocalized number]
+  Steps:
+  open facebook login page on your browser
+  provide valid phone number
+  provide a valid password
+  click on the login button
+Expected result: The user logs in succesfully 
+
+Test case 2.
+     Verify that user can login using valid phone number [using country code]
+  Steps:
+  open facebook login page on your browser
+  provide valid phone number
+  provide a valid password
+  click on the login button
+Expected result: The user logs in succesfully 
+
+
+Invalid Test Case
+adeegbejoshuagmail.chrome
+Steps:
+  open facebook login page on your browser
+  provide invalid email address (adeegbejoshuagmail.chrome)
+  provide a valid password
+  click on the login button
+
+  expected result: an error message should appear
