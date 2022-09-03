@@ -1,4 +1,4 @@
-Scenarios
+Senarios
 
 Can the user Login using email address?
 Can the user login using phone number

@@ -1,1 +1,65 @@
+Scenarios
+
 Test cases for EPL
+can the user register with just phone number alone (localised number)
+can the user register with just phone number alone (country code)
+Can the user register with email address alone
+can the user register with either email or phone number 
+can the user register with both email and phone number combined
+
+Preconditions
+The user needs to download the application
+The user needs to register on the application
+The user needs to have the browser open
+
+Test cases
+Valid Test cases
+-
+Test case 1
+    Verify that user can register using phone number alone (Localised number)
+Steps:
+1. Open EPL registration page on web/app
+2. Provide valid phone number
+3. Provide a required password
+4. Click on the register button
+   Expected result: The user register successfully
+
+Test case 2
+    Verify that user can register using phone number alone (country code)
+Steps:
+1. Open EPL registration page on web/app
+2. Provide valid country code and phone number 
+3. Provide a required password
+4. Click on the register button
+   Expected result: The user register successfully
+
+   Test case 3
+     Verify that user can register using email address alone
+1. Open EPL registration page on web/app
+2. Provide valid email address
+3. Provide a required password
+4. Click on the register button
+   Expected result: The user register successfully
+
+   Test case 4
+     Verify that user can register using email address or phone number (Localised number)
+1. Open EPL registration page on web/app
+2. Provide valid email address or localised phone number 
+3. Provide a required password
+4. Click on the register button
+   Expected result: The user register successfully
+
+Test case 5
+     Verify that user can register using email address or phone number (Country code)
+1. Open EPL registration page on web/app
+2. Provide valid email address or country code and  phone number 
+3. Provide a required password
+4. Click on the register button
+   Expected result: The user register successfully
+
+   
+
+
+
+   
+
