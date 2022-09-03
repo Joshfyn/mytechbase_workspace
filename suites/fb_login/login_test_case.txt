@@ -6,8 +6,7 @@ Can the user uset the forgotten password
 
 Preconditions
 User should have register on the application
-user should have browser open (chrome or mozilla)
-
+user should have browser open fire fox
 Test Case
 Valid Test Case 
  -Test case 1.
